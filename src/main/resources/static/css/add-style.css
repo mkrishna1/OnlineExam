@@ -1,0 +1,27 @@
+body{
+	background-color: #g5g5g5;
+	
+}
+
+.ans {
+	width: 100%;
+	font-size:16px;
+	border-collapse: collapse;
+}
+
+.ans td, .ans th {
+	padding: 8px;
+	color: #222;
+}
+
+.ans tr:nth-child(odd) {background-color: #4cae4c;  /* color:#80cd33*/}
+
+.ans tr:hover {background-color: #eee;}
+
+.ans th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #398439;
+	color: #fff;
+}
